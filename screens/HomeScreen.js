@@ -6,8 +6,9 @@ import NavOptions from '../components/NavOptions'
 const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
-      <View style={tw`p-5`}>
-        <Image 
+      <View style={tw`p-0`}>
+        <View>
+        {/* <Image 
             style={{
                 width: 50, 
                 height: 50, 
@@ -16,8 +17,9 @@ const HomeScreen = () => {
             source={{
                 uri: "https://kmymoney.org/assets/img/app_icon.png",
             }}
-        />
-        <Text>KMYMONEY</Text>
+        /> */}
+        <Text style={tw`mt-2 text-lg font-semibold text-center`}>Menu</Text>
+        </View>
         <NavOptions />
       </View>
     </SafeAreaView>
