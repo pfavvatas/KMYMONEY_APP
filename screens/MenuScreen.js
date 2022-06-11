@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, SafeAreaView, Image } from 'react-native'
 import React from 'react'
 import tw from 'twrnc'
 import NavOptions from '../components/NavOptions'
+import NavOptions2 from '../components/NavOptions2'
 
 const HomeScreen = () => {
     return (
@@ -10,7 +11,8 @@ const HomeScreen = () => {
                 <View>
                     <Text style={tw`mt-2 text-lg font-semibold text-center`}>Menu</Text>
                 </View>
-                <NavOptions />
+                {/* <NavOptions /> */}
+                <NavOptions2 />
             </View>
         </SafeAreaView>
     )
