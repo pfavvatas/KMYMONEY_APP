@@ -8,9 +8,6 @@ const HomeScreen = () => {
     return (
         <SafeAreaView style={tw`bg-white h-full`}>
             <View style={tw`p-0`}>
-                <View>
-                    <Text style={tw`mt-2 text-lg font-semibold text-center`}>Menu</Text>
-                </View>
                 {/* <NavOptions /> */}
                 <NavOptions2 />
             </View>

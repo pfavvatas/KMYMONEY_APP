@@ -12,6 +12,11 @@ import {
   OutboxScreen
 } from './screens'
 
+export const globalScreenOptions = {
+  headerStyle: { backgrountColor: "#2C6BED"},
+  headerTitleStyle: { color: "black" },
+  headerTintColor: "black",
+};
 
 
 export default function App() {
@@ -20,103 +25,103 @@ export default function App() {
     <Provider store={store}>
       <NavigationContainer>
         <SafeAreaProvider>
-          <Stack.Navigator>
+          <Stack.Navigator screenOptions={globalScreenOptions}>
             <Stack.Screen
-              name='MenuScreen'
+              name='Menu'
               component={MenuScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='HomeScreen'
+              name='Home'
               component={HomeScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='InstitutionsScreen'
+              name='Institutions'
               component={InstitutionsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='AccountsScreen'
+              name='Accounts'
               component={AccountsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='ScheduledTransactionsScreen'
+              name='ScheduledTransactions'
               component={ScheduledTransactionsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='CategoriesScreen'
+              name='Categories'
               component={CategoriesScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='TagsScreen'
+              name='Tags'
               component={TagsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='PayeesScreen'
+              name='Payees'
               component={PayeesScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='LedgersScreen'
+              name='Ledgers'
               component={LedgersScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='InvestmentsScreen'
+              name='Investments'
               component={InvestmentsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='ReportsScreen'
+              name='Reports'
               component={ReportsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='BudgetsScreen'
+              name='Budgets'
               component={BudgetsScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='ForecastScreen'
+              name='Forecast'
               component={ForecastScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
-              name='OutboxScreen'
+              name='Outbox'
               component={OutboxScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
           </Stack.Navigator>
