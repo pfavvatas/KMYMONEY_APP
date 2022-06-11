@@ -3,9 +3,9 @@ import React from 'react'
 import tw from 'twrnc'
 import NavOptions from '../components/NavOptions'
 
-const HomeScreen = () => {
+const ReportsScreen = () => {
     const form = {
-        title: 'Home'
+        title: 'ReportsScreen'
     }
     return (
         <SafeAreaView style={tw`bg-white h-full`}>
@@ -18,6 +18,6 @@ const HomeScreen = () => {
     )
 }
 
-export default HomeScreen
+export default ReportsScreen
 
 const styles = StyleSheet.create({})
