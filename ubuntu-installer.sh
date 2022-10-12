@@ -8,5 +8,5 @@ sudo apt-get install nodejs npm
 sudo apt install npm
 sudo npm install expo
 sudo npm install --global expo-cli
-npm install -g sharp-cli
+#npm install -g sharp-cli
 sudo apt-get update
