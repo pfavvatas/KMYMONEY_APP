@@ -4,14 +4,22 @@
 
 # Linux Setup
 1. Install Visual Studio Code 
+
     https://code.visualstudio.com/docs/setup/linux
-    ```sudo apt install ./<file>.deb```
+    ```
+    sudo apt install ./<file>.deb
+    ```
 
 2. Install git
+
     https://git-scm.com/download/linux
-    ```sudo apt-get install git```
+    ```
+    sudo apt-get install git
+    ```
 3. Install curl
-    ```sudo apt install curl```
+    ```
+    sudo apt install curl
+    ```
 
 4. Install nvm
     https://github.com/nvm-sh/nvm
@@ -23,22 +31,36 @@
     ```
 
 5. Install nodejs
-    ```sudo apt-get install nodejs npm```
+    ```
+    sudo apt-get install nodejs npm
+    ```
 
 6. Update
-    ```sudo apt-get update```
+    ```
+    sudo apt-get update
+    ```
 
 7. Install npm
-    ```sudo apt install npm```
+    ```
+    sudo apt install npm
+    ```
 
 8. Install expo
-    ```sudo npm install expo```
+    ```
+    sudo npm install expo
+    ```
 
 9. Install expo-cli
-    ```sudo npm install --global expo-cli```
+    ```
+    sudo npm install --global expo-cli
+    ```
 
 10. Install sharp-cli
-    ```npm install -g sharp-cli```
+    ```
+    npm install -g sharp-cli
+    ```
 
 10. Run solution
-    ```npm start```
+    ```
+    npm start
+    ```
