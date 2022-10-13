@@ -3,7 +3,7 @@ import React from 'react'
 import tw from 'twrnc'
 import NavOptions from '../components/NavOptions'
 import { HomeCard } from '../components'
-import { ScrollView } from 'react-native-web'
+import { ScrollView } from 'react-native'
 
 const HomeScreen = () => {
     const form = {
